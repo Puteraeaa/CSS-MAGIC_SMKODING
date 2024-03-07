@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* * {
+        border: 2px solid black !important;
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="container pt-2 pb-10">
+      <div class="rate-container relative flex border-solid">
+        <div
+          class="bg-contain absolute z-9 rounded-r-xl top-5"
+          style="
+            background-color: #f6ebda;
+            width: 64%;
+            height: 420px;
+            background-image: url('./image/bg-testimonial.png');
+            background-blend-mode: soft-light;
+          "
+        ></div>
+        <div class="left z-10 relative pl-32 pt-40 w-2/5">
+          <h1 class="text-4xl font-semibold lowercase">
+            What They Say About Us
+          </h1>
+          <p class="text mt-5 text-gray-500 pr-28">
+            We always providethe best service and always maintenain the quality
+            of coffee
+          </p>
+        </div>
+        <div
+          class="right w-3/5 relative p-20 flex gap-16 justify-between h-max"
+        >
+          <div class="rate bg-red-400 relative w-max">
+            <img src="./image/testimonial-1.png" alt="" class="" />
+            <div
+              class="absolute bottom-4 left-8 flex flex-col w-52 p-1 rounded-md"
+              style="background-color: #ffcb7c"
+            >
+              <p>Naura</p>
+              <p>I really love the cappucino, the coffee was very smooth.</p>
+            </div>
+          </div>
+          <div class="rate bg-red-400 relative w-max">
+            <img src="./image/testimonial-2.png" alt="" class="" />
+            <div
+              class="absolute bottom-4 left-8 flex flex-col w-52 p-1 rounded-md"
+              style="background-color: #ffcb7c"
+            >
+              <p>John</p>
+              <p>The coffee shop is very convinient.</p>
+            </div>
+          </div>
+          <div class="rate bg-red-400 relative w-max">
+            <img src="./image/testimonial-3.png" alt="" class="" />
+            <div
+              class="absolute bottom-4 left-8 flex flex-col w-52 p-1 rounded-md"
+              style="background-color: #ffcb7c"
+            >
+              <p>Azura</p>
+              <p>The coffee menu here is so much.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="subscription mt-14 ml-32 mr-32 w-auto bg-cover rounded-3xl flex justify-center items-center flex-col gap-8"
+        style="
+          background-image: url('./image/bg-newsletter.png');
+          height: 400px;
+        "
+      >
+        <h1 class="text-4xl font-semibold text-white">
+          Subscribe to get 50% discount price
+        </h1>
+        <div class="bottom relative">
+          <input
+            type="text bg-red"
+            placeholder="email address"
+            class="py-3 px-5 rounded-full"
+            style="width: 500px"
+          />
+          <a
+            class="rounded-full text-white absolute top-1 right-1 py-2 px-6"
+            style="background-color: #2f2105"
+          >
+            Order now
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
